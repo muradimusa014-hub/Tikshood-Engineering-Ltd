@@ -1,5 +1,5 @@
 export const siteConfig = {
-  companyName: "Dismento Nigeria Ltd",
+  companyName: "Tikshood Engineering Limited",
 colors: {
   primary: "bg-neutral-900", 
   primaryHover: "hover:bg-neutral-700",
