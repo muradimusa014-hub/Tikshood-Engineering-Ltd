@@ -1,34 +1,32 @@
 export const siteConfig = {
-  companyName: "Syal Engineering Ltd",
+  companyName: "Tikshood Engineering Limited",
   colors: {
-    primary: "bg-slate-900", 
-    primaryHover: "hover:bg-slate-800",
-    textHighlight: "text-amber-500", // Construction Amber
+    primary: "bg-orange-700", 
+    primaryHover: "hover:bg-orange-600",
+    textHighlight: "text-orange-400", 
   },
   contact: {
-    phone: "+234 806 076 9201", // Syal's actual scraped number
-    email: "projects@syalengineering.com",
-    address: "Zaria Road, Kaduna, Nigeria",
-    whatsappMessage: "Hello, I would like to request a consultation regarding an upcoming project."
+    phone: "+234 812 275 7448", 
+    email: "info@tikshoodengineering.com",
+    address: "Sabon Gari, Zaria, Kaduna State, Nigeria",
+    whatsappMessage: "Hello, I am reaching out to discuss a project specification and request a bid."
   },
   forms: {
     contactApiKey: "YOUR_WEB3FORMS_ACCESS_KEY_HERE", 
-    newsletterSuccessMessage: "You have been added to our procurement updates list."
+    newsletterSuccessMessage: "You are now subscribed to our engineering and fabrication updates."
   },
   about: {
-    title: "Engineering the Future",
-    description: "We are a premier heavy engineering and infrastructure development firm operating across the Kaduna-Zaria axis.",
-    mission: "To deliver structurally flawless projects on time, within budget, and strictly above national safety standards.",
-    
-    // Completely dynamic for Muradi to change per client
+    title: "Mastery in Structural Fabrication",
+    description: "Operating out of the Sabon Gari hub in Zaria, Tikshood Engineering Limited stands at the forefront of structural fabrication, precision engineering, and high-grade procurement. We bridge the gap between heavy industrial demands and meticulously executed projects.",
+    mission: "To engineer solutions that ensure supreme structural integrity while optimizing project timelines and resource efficiency.",
     coreValues: [
-      { title: "Safety First", description: "Zero-compromise HSE protocols on every active site." },
-      { title: "Precision", description: "Exacting standards from blueprint to foundation." }
+      { title: "Precision Engineering", description: "Every measurement, cut, and weld is executed with microscopic accuracy to guarantee load-bearing efficiency." },
+      { title: "Reliable Procurement", description: "Maintaining a robust supply chain to ensure high-grade construction materials are sourced without delays." }
     ],
     milestones: [
-      { year: "Phase 1", title: "Regional Expansion", desc: "Solidified operations across the Kaduna-Zaria industrial corridor." },
-      { year: "Phase 2", title: "Heavy Machinery", desc: "Acquired a robust fleet of industrial-grade equipment for large-scale procurement." },
-      { year: "Phase 3", title: "Infrastructure Dominance", desc: "Recognized as a leading contractor for high-tier development projects." }
+      { year: "Phase 1", title: "Sabon Gari Establishment", desc: "Commenced operations as a localized structural steel fabrication unit." },
+      { year: "Phase 2", title: "Procurement Mastery", desc: "Expanded into strategic sourcing and supply chain management for heavy machinery." },
+      { year: "Phase 3", title: "Industrial Expansion", desc: "Executing complex, large-scale structural integrations across the Zaria industrial sector." }
     ]
   }
 };
