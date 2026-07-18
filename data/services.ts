@@ -2,42 +2,57 @@ export interface Service {
   id: string;
   title: string;
   shortDescription: string;
-  iconName: "Building" | "HardHat" | "Truck" | "Ruler"; 
+  iconName: "Wrench" | "Cog" | "Factory" | "ClipboardCheck";
   coreCapabilities: string[];
 }
 
 export const services: Service[] = [
   {
-    id: "structural-fabrication",
-    title: "Structural Steel Fabrication",
-    shortDescription: "Precision metalwork and framework assembly for commercial builds.",
-    iconName: "Building",
+    id: "engineering-consultancy",
+    title: "Engineering Consultancy",
+    shortDescription:
+      "Professional engineering consulting services for industrial, commercial, and infrastructure projects.",
+    iconName: "ClipboardCheck",
     coreCapabilities: [
-      "Heavy Steel Welding & Assembly",
-      "Custom Architectural Frameworks",
-      "Corrosion-Resistant Treatments"
+      "Feasibility Studies",
+      "Technical Advisory Services",
+      "Engineering Design & Documentation"
     ]
   },
   {
-    id: "engineering-procurement",
-    title: "Engineering Procurement",
-    shortDescription: "Strategic sourcing of high-grade construction and fabrication materials.",
-    iconName: "Truck",
+    id: "industrial-installation",
+    title: "Industrial Installation",
+    shortDescription:
+      "End-to-end installation of mechanical, electrical, and industrial systems.",
+    iconName: "Factory",
     coreCapabilities: [
-      "Global Material Sourcing",
-      "Heavy Machinery Logistics",
-      "Supply Chain Cost Optimization"
+      "Mechanical Equipment Installation",
+      "Electrical Power Systems",
+      "Industrial Plant Commissioning"
     ]
   },
   {
-    id: "precision-engineering",
-    title: "Precision Engineering & Drafting",
-    shortDescription: "Highly calibrated structural solutions focused on load-bearing efficiency.",
-    iconName: "Ruler",
+    id: "maintenance-support",
+    title: "Maintenance & Technical Support",
+    shortDescription:
+      "Reliable maintenance solutions that maximize equipment performance and operational efficiency.",
+    iconName: "Wrench",
     coreCapabilities: [
-      "CAD Structural Blueprinting",
-      "Stress & Load Analysis",
-      "Micro-Tolerance Machining"
+      "Preventive Maintenance",
+      "Equipment Troubleshooting",
+      "Plant Maintenance Services"
+    ]
+  },
+  {
+    id: "automation-control",
+    title: "Automation & Control Systems",
+    shortDescription:
+      "Design, integration, and optimization of modern industrial automation solutions.",
+    iconName: "Cog",
+    coreCapabilities: [
+      "PLC & HMI Integration",
+      "SCADA System Development",
+      "Industrial Control Panel Design"
     ]
   }
 ];
